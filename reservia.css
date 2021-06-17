@@ -117,7 +117,7 @@ strong{
 	padding-left: 3%;
 }
 #bouton{
-	border-color: #0065FC;
+	border-color: #0060FC;
 	background-color: #0065FC;
 	color: white;
 	text-align: center;
@@ -1025,4 +1025,5 @@ aside p{
 	#blocs li{
 		width: 100%;
 	}
+}
 
