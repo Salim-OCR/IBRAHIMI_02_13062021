@@ -4,7 +4,7 @@ body{
 
 #conteneur {
 	margin: auto;
-	width: 80%;
+	width: 1500px;
 }
 #conteneur a{
 	text-decoration: none;
@@ -14,6 +14,11 @@ a:visited{
 }
 strong{
 	color: black;
+}
+.salim{
+	justify-content: space-evenly;
+	position: relative;
+	width: 100%;
 }
 /*header	*/
 .header{
@@ -242,7 +247,7 @@ strong{
 /*DEBUT DE SECTION 1 HEBERGEMENTS A MARSEILLE*/
 #section_hébergements{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin-bottom:5%;
 	margin-left: 2%;
 }
@@ -254,7 +259,6 @@ strong{
 #font_hébergements{
 	background-color: #F2F2F2;
 	border-radius: 10px;
-	width: 70%;
 }
 /*BLOC FIGURE 1 ET 2*/
 
@@ -339,7 +343,8 @@ aside figure{
 	display: flex;
 	background-color: white;
 	border-radius: 15px;
-	margin-left: 9%;
+	width: 400px;
+	height: 170px;
 }
 aside figure:hover{
 	box-shadow: 1px 3px 3px #0065FC;
@@ -508,10 +513,9 @@ aside p{
 
 
 
-/*RESPONSIVE DESKTOP*/
+/*RESPONSIVE DESKTOP
 @media (min-width: 769px) and (max-width: 1460px){
-
-	/**********FILTRE*************/
+	*******FILTRE**************
 	.filtres strong{
 		padding-top: 10px;
 	}
@@ -521,7 +525,7 @@ aside p{
 
 
 
-	/************ASIDE****************/
+	***********ASIDE****************
    #section_hébergements{
    	flex-direction: column-reverse;
    }
@@ -549,7 +553,7 @@ aside p{
    	margin-top: 30px;
    }
 
-   /**************SECTION HEBERGEMENT*****************/
+   ***********SECTION HEBERGEMENT*****************
    #font_hébergements{
    	width: 100%;
    	margin-top: 3%;
@@ -558,7 +562,7 @@ aside p{
 
 
 
-   /**************ACTIVITE MARSEILLE******************************/
+   ***********ACTIVITE MARSEILLE***********************
    #thèmes_marseille{
    	justify-content: space-around;
    	flex-wrap: wrap;
@@ -566,7 +570,9 @@ aside p{
    	margin: auto;
    }
 }
+*/
 
+	
 
 /*RESPONSIVE TABLETTE*/
 @media  (min-width: 425px) and (max-width: 768px){
