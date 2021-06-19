@@ -575,7 +575,11 @@ aside p{
 	
 
 /*RESPONSIVE TABLETTE*/
-@media  (min-width: 425px) and (max-width: 768px){
+@media  (min-width: 600px) and (max-width: 1024px){
+	#conteneur{
+		width: 950px;
+		margin-left: 5%;
+	}
 	header{
 		display: inline-block;
 		
@@ -658,8 +662,6 @@ aside p{
 	aside figure{
 		margin: auto;
 		margin-top: 3%;
-		height: 150px;
-		width: 310px;
 	}
 	#figure_dubas{
 		margin-bottom: 3%;
@@ -747,10 +749,10 @@ aside p{
 
 
 /*RESPONSIVE MOBILE*/
-@media (max-width: 424px){
+@media (max-width: 599px){
 	/**************HEADER****************/
 	#conteneur{
-		width: 100%;
+		width: 450px;
 	}
 	.header{
 		display: inline-block;
