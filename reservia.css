@@ -646,9 +646,8 @@ aside p{
 
 	/*ASIDE*/
 	aside{
-		width: 100%;
-		margin-left: 0px;
-		margin-right: 0px;
+		width: 55%;	
+		margin-left: 25%;	
 		margin-bottom: 5%;
 	}
 	aside h2{
@@ -714,7 +713,7 @@ aside p{
    	text-align: center;
    }
 	#thèmes_marseille div{
-		width: 80%;
+		width: 50%;
 		height: auto;
 		margin: auto;
 	}
