@@ -279,8 +279,8 @@ strong{
 }
 #bloc img{
 	border-radius: 15px 15px 0 0;
-	border: 2px solid white;
-	width: 98%;
+	border: 5px solid white;
+	width: 96%;
 
 }
 #bloc p{
@@ -350,7 +350,7 @@ aside figure:hover{
 	box-shadow: 1px 3px 3px #0065FC;
 }
 aside img{
-	border: 1px solid white;
+	border: 5px solid white;
 	border-radius: 15px 0 0 15px;
 	width: 40%;
 }
@@ -366,7 +366,7 @@ aside p{
 	margin: 2.5%;
 } 
 .étoiles{
-	margin-top: 30%;
+	margin-top: 27%;
 }
 #figure_dubas{
 	margin-bottom: 10%;
@@ -508,77 +508,12 @@ aside p{
 /*================== RESONSIVE=======================*/
 
 
-
-
-
-
-
-/*RESPONSIVE DESKTOP
-@media (min-width: 769px) and (max-width: 1460px){
-	*******FILTRE**************
-	.filtres strong{
-		padding-top: 10px;
-	}
-	.filtres_duo{
-		width: auto;
-	}
-
-
-
-	***********ASIDE****************
-   #section_hébergements{
-   	flex-direction: column-reverse;
-   }
-   aside{
-   	margin-left: 0px;
-   }
-   aside h2{
-   	padding-top: 0px;
-   }
-   aside figure{
-   	margin: auto;
-   	height: 150px;
-   	width: 350px;
-   	margin-top: 3%;
-   }
-   #az {
-   	display: flex;
-   	justify-content: space-between;
-   	flex-wrap: wrap;
-   }
-   #figure_dubas{
-   	margin-bottom: 3%;
-   }
-   .étoiles{
-   	margin-top: 30px;
-   }
-
-   ***********SECTION HEBERGEMENT*****************
-   #font_hébergements{
-   	width: 100%;
-   	margin-top: 3%;
-   }
-
-
-
-
-   ***********ACTIVITE MARSEILLE***********************
-   #thèmes_marseille{
-   	justify-content: space-around;
-   	flex-wrap: wrap;
-   	width: 100%;
-   	margin: auto;
-   }
-}
-*/
-
 	
 
 /*RESPONSIVE TABLETTE*/
 @media  (min-width: 600px) and (max-width: 1024px){
 	#conteneur{
-		width: 950px;
-		margin-left: 5%;
+		width: 1000px;
 	}
 	header{
 		display: inline-block;
@@ -606,7 +541,6 @@ aside p{
 	}
 	#rechercher{
 		margin: auto;
-		width: auto;
 	}
 	#input_ville{
 		width: 50%;
@@ -616,15 +550,14 @@ aside p{
 
 	/*FILTRES*/
 	.filtres{
-		height: auto;
+		
 		flex-direction: column;
 		margin-top: 2%;
     }
     .filtres_duo{
-    	width: auto;
     	display: block;
     	margin-left: 10%;
-    	margin-bottom: 3%;
+    	margin-bottom: 1%;
     }
     #form_economie{
     	margin-left: 0px;
@@ -632,10 +565,11 @@ aside p{
     }
     #form_family{
     	margin-left: 0px;
+
     }
     #form_romantic{
     	margin-left: 10%;
-    	margin-bottom: 3%;
+    	margin-bottom: 1%;
     }
     #form_animals{
     	margin-left: 10%;
@@ -911,24 +845,25 @@ aside p{
 	}
 	aside{
 		display: block;
-		width: 100%;
+		width: 95%;
 		border-radius: 0;
 		margin: auto;		
 	}
 	aside h2{
 		padding-left: 2%;
-		width: 85%;
+		width: 87%;
+		margin-left: 4%;
 		font-weight: 900;
 		font-size: 1.6em;
 	}
 	aside figure{
-		margin-left: 4%;
+		width: 85%;
+		margin-left: 7%;
 		height: auto;
 		margin-bottom: 3%;
-		margin-right: 5%;
 	}
-	.étoiles{
-		margin-top: 30%;
+	aside img{
+		border: 5px solid white;
 	}
 
 
@@ -946,12 +881,19 @@ aside p{
 	#bloc figure{
 		box-shadow: 1px 3px 1px #F2F2F2;
 		margin-bottom: 5%;
-		width: 100%;
+		width: 95%;
 		margin: auto;
 		margin-bottom: 5%;
+		height: 210px;
+	}
+	#bloc figcaption{
+		border-top: 15px solid white;
+		position: relative;
+		bottom: 20px;
 	}
 	#bloc img{
 		height: 130px;
+		width: 98%;
 	}
 	.bloc_figure1{
 		display: block;
@@ -985,8 +927,8 @@ aside p{
 		margin-right: 0;
 	}
 	#thèmes_marseille figure{
-		box-shadow: 0 4px 8px #f2f2f2;
-		width: 100%;
+		box-shadow: 1px 3px 2px #f2f2f2;
+		width: 95%;
 		margin-bottom: 5%;
 		margin-top: 6%;
 	}
